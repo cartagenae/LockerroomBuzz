@@ -84,7 +84,7 @@ class Content extends React.Component {
           </div>
         </div>
 
-        <hr /><br /><br />
+        <hr /><br />
 
         <div class="container">
           <div class="row">
