@@ -1,0 +1,33 @@
+.right {
+  padding-left: 850px;
+}
+
+.title {
+  padding-left: 0px;
+}
+
+.vr {
+  border-right: 1px solid;
+}
+
+.navbar {
+  background-color: 'purple';
+  width: 100%;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  margin-left: 25px;
+}
+
+.centralize {
+  padding-right: 20px;
+}
+
+.people {
+  width: 18rem;
+}
