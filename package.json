@@ -1,0 +1,30 @@
+{
+  "name": "lockerroombuzz",
+  "version": "1.0.0",
+  "description": "A login application with Express as backend and React as frontend",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node ./.server/server.js",
+    "server": "nodemon ./.server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cartagenae/LockerroomBuzz.git"
+  },
+  "author": "Eric Cartagena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cartagenae/LockerroomBuzz/issues"
+  },
+  "homepage": "https://github.com/cartagenae/LockerroomBuzz#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
