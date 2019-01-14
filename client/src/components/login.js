@@ -6,7 +6,7 @@ class Login extends React.Component {
   render() {
     return (
       <div>
-      <br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br />
         <div class="container">
           <div class="row">
             <div class="col-md-8">
