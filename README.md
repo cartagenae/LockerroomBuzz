@@ -12,6 +12,10 @@ It is currently incomplete. It needs to connect to routes within the backend
 server for user authentication in the login form and it needs to be able to
 sign up new users upon request.
 
+I intend on creating this application with a MongoDB linked to the express
+backend server where the react frontend server can fetch the server responses
+accordingly.
+
 -----------------------------------------------------------------
 
 How to Run:
