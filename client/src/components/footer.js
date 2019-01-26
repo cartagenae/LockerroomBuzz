@@ -5,7 +5,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <nav class="navbar navbar-light bg-light sticky-bottom">© Lockerroom Buzz: 2019-2020</nav>
+      <nav className="navbar navbar-light bg-light sticky-bottom">© Lockerroom Buzz: 2019-2020</nav>
     </footer>
   )
 }
